@@ -4,12 +4,12 @@ temp = input("Enter Temperature: ")
 # Convert Celsius to Fahrenheit
 def cels_to_fahr(tempc):
     fahr = (9 / 5) * (tempc) + 32
-    print(round(fahr))
+    print(f"It is {round(fahr)} Fahrenheit")
 
 # Convert Fahrenheit to Celsius
 def fahr_to_cels(tempf):
     cels = (tempf - 32) * (5 / 9)
-    print(round(cels))
+    print(f"It is {round(cels)} Celsisus")
 
 # Figure out if Fahrenheit or Celsius
 if temp[-1] == "f":
